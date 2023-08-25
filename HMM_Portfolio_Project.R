@@ -1,6 +1,6 @@
 library(HMM)
 library(TSstudio)
-data<???read.table("C:/Users/gokul/Downloads/MBB.csv",header=TRUE,sep=",",as.is=TRUE)
+data<-read.table("C:/Users/gokul/Downloads/MBB.csv",header=TRUE,sep=",",as.is=TRUE)
 #data<-read.table("C:/Users/gokul/Downloads/VMBS.csv",header=TRUE,sep=",",as.is=TRUE)
 closepricedata<???as.double(data$Close[1:183])
 closepricedate<???data$Date[2:183]
